@@ -1,3 +1,7 @@
+- título
+- descripción acerca del proyecto
+- autor
+---
 # título de primer nível
 ## subtítulo de nível 2
 ### subtítulo de nível 3
