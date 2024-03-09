@@ -10,3 +10,7 @@ if (nombreUsuario) {
 } else {
   document.write("Hola")
 } */
+
+// Hacer un programa que pida dos números al usuario y los sume.
+
+// Hacer un programa que pida aparte nombre y apellido y muestre el nombre completo.

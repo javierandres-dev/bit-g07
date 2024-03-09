@@ -164,3 +164,63 @@ switch (perfil) {
     console.log('perfil no permitido');
     break;
 } */
+
+/* Operadores */
+// Concatenación
+//console.log('Pepita' + ' ' + 'Pérez');
+// Aritméticos
+/* console.log(8 + 4);
+console.log(8 - 4);
+console.log(8 * 4);
+console.log(8 / 4);
+console.log(8 % 4);
+console.log(10 % 3);
+console.log(2 ** 3); */
+
+/* miVariable = 3;
+console.log(miVariable); */
+// Incremento
+/* miVariable++;
+console.log(miVariable); */
+// Decremento
+/* miVariable--;
+console.log(miVariable); */
+
+// Asignación =
+/* let numero1 = 8;
+let numero2 = 4;
+let resultado = numero1 + numero2;
+resultado += 3;
+resultado -= 5;
+resultado *= 2;
+resultado /= 2;
+resultado %= 3;
+resultado **= 2;
+console.log(resultado); */
+
+// Comparación
+/* console.log(8 == 4);
+console.log(8 === 4);
+console.log(8 == 8);
+console.log(8 === 8);
+console.log(8 == '8');
+console.log(8 === '8');
+console.log('8' === '8');
+console.log('pepita' === 'Pepita');
+console.log(8 != 4);
+console.log(8 != '8');
+console.log(8 !== '8');
+console.log(8 > 4);
+console.log(8 < 4);
+console.log(8 >= 4);
+console.log(8 <= 4); */
+
+// Lógicos
+/* console.log(true && true);
+console.log(true && false);
+console.log(false && false);
+console.log(true || true);
+console.log(true || false);
+console.log(false || false);
+console.log(!true);
+console.log(!false); */
