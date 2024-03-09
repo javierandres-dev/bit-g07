@@ -1,4 +1,4 @@
-"use strict"
+'use strict';
 // Hacer un programa que salude
 /* console.log("Hola")
 document.write("Hola") */

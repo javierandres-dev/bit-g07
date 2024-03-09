@@ -42,30 +42,75 @@ console.log(cambiaValor)
 console.log(noCambiaValor) */
 
 /* Modo estricto */
-"use strict"
+'use strict';
 /* saludo = "hola";
 console.log(saludo); */
 
 /* Tipos de dato primitivos */
 // string
-let miVariable = "";
- miVariable = "este es un texto de 'ejemplo 1'";
- miVariable = 'este es un texto de "ejemplo 2"';
- miVariable = `este es un 'texto' de "ejemplo" 3`;
- // number
- miVariable = 10;
- miVariable = 9.5;
- miVariable = 0xFF;
-  miVariable = 123e5;
+let miVariable = '';
+miVariable = "este es un texto de 'ejemplo 1'";
+miVariable = 'este es un texto de "ejemplo 2"';
+miVariable = `este es un 'texto' de "ejemplo" 3`;
+// number
+miVariable = 10;
+miVariable = 9.5;
+miVariable = 0xff;
+miVariable = 123e5;
 // boolean
- miVariable = true;
- miVariable = false;
- // undefined
- let miVariableSinAsignacion;
- //console.log(miVariableSinAsignacion);
- // null
- miVariable = null;
+miVariable = true;
+miVariable = false;
+// undefined
+let miVariableSinAsignacion;
+//console.log(miVariableSinAsignacion);
+// null
+miVariable = null;
 // console.log(miVariable);
+
+/* Operador typeof */
+let entradaUsuario = '123';
+/* console.log(entradaUsuario);
+console.log(typeof entradaUsuario); */
+entradaUsuario = 123;
+/* console.log(entradaUsuario);
+console.log(typeof entradaUsuario); */
+
+/* Conversión de tipos */
+/* let numero1 = '1';
+let numero2 = '2';
+let numero3 = '3';
+let resultado = numero1 + numero2 + numero3;
+console.log(resultado);
+numero1 = Number(numero1);
+numero2 = parseInt(numero2);
+numero3 = +numero3;
+resultado = numero1 + numero2 + numero3;
+console.log(resultado); */
+
+/* let numeroDecimal1 = '1.5';
+let numeroDecimal2 = '2.5';
+let numeroDecimal3 = '3.5';
+resultado = numeroDecimal1 + numeroDecimal2 + numeroDecimal3;
+console.log(resultado);
+numeroDecimal1 = parseFloat(numeroDecimal1);
+numeroDecimal2 = parseFloat(numeroDecimal2);
+numeroDecimal3 = Number(numeroDecimal3);
+resultado = numeroDecimal1 + numeroDecimal2 + numeroDecimal3;
+console.log(resultado); */
+
+/* let telefono = 555;
+let codigoPais = 57;
+console.log(telefono);
+console.log(typeof telefono);
+console.log(codigoPais);
+console.log(typeof codigoPais);
+telefono = String(telefono);
+console.log(telefono);
+console.log(typeof telefono);
+codigoPais = codigoPais.toString();
+console.log(codigoPais);
+console.log(typeof codigoPais);
+console.log('Número completo:', codigoPais + telefono); */
 
 /* Expresiones booleanas */
 // Truthy o verdaderos
@@ -107,15 +152,15 @@ if (true) {
   console.log("se cumple la condición 5")
 } */
 
-/* const perfil = "profesor"
-switch (perfil){
-  case "estudiante":
-    console.log("eres un estudiante")
+/* const perfil = 'profesor';
+switch (perfil) {
+  case 'estudiante':
+    console.log('eres un estudiante');
     break;
-  case "profesor":
-    console.log("eres un profesor")
+  case 'profesor':
+    console.log('eres un profesor');
     break;
   default:
-    console.log("perfil no permitido")
+    console.log('perfil no permitido');
     break;
 } */
