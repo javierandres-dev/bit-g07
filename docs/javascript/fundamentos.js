@@ -57,6 +57,9 @@ miVariable = 10;
 miVariable = 9.5;
 miVariable = 0xff;
 miVariable = 123e5;
+miVariable = NaN;
+/* console.log(miVariable);
+console.log(typeof miVariable); */
 // boolean
 miVariable = true;
 miVariable = false;
