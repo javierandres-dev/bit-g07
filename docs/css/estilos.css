@@ -1,0 +1,18 @@
+/* Comentarios en CSS */
+div,
+span {
+  color: orange;
+}
+/* Tipos de selectores */
+p {
+  color: green;
+}
+#p1 {
+  color: red;
+}
+.texto-amarillo {
+  color: yellow;
+}
+* {
+  color: purple;
+}
