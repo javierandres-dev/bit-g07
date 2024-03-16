@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css.css" />
+    <title>Fondos</title>
+    <style>
+      .color-fondo {
+        height: 100px;
+        background-color: yellow;
+      }
+      .imagen-fondo {
+        height: 300px;
+        background-image: url('paisaje.jpg');
+        background-color: red;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .degradado1-fondo {
+        height: 200px;
+        background-image: linear-gradient(red, white);
+      }
+      .degradado2-fondo {
+        height: 200px;
+        background-image: radial-gradient(red, white);
+      }
+      .degradado3-fondo {
+        height: 200px;
+        background-image: conic-gradient(red, white);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="color-fondo"></div>
+    <div class="imagen-fondo"></div>
+    <div class="degradado1-fondo"></div>
+    <div class="degradado2-fondo"></div>
+    <div class="degradado3-fondo"></div>
+  </body>
+</html>

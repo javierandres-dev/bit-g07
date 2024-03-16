@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css.css" />
+    <title>Imágenes</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      img {
+        width: 100%;
+        height: auto;
+      }
+      figure {
+        margin: 0;
+        width: 400px;
+      }
+      figcaption {
+        text-align: center;
+        font-size: 32px;
+        color: salmon;
+      }
+      .circulo {
+        border-radius: 50%;
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <figure>
+      <img src="paisaje.jpg" alt="foto de un paisaje" class="circulo" />
+      <figcaption>Paisaje</figcaption>
+    </figure>
+    <img src="paisaje.jpg" alt="foto de un paisaje" />
+    <img src="gato.png" alt="foto de un gato" />
+  </body>
+</html>

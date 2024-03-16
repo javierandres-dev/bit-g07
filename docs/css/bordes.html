@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css.css" />
+    <title>Bordes</title>
+    <style>
+      .caja {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        margin-bottom: 20px;
+      }
+      .caja1 {
+        border-radius: 50%;
+      }
+      .caja2 {
+        border-radius: 20px;
+      }
+      .caja3 {
+        border-radius: 20px 0 20px 0;
+      }
+      .caja4 {
+        border-radius: 50% 10% 50% 10%;
+      }
+      .caja5 {
+        border-radius: 50% 10% 50% 10% / 10% 50% 10% 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="caja caja1"></div>
+    <div class="caja caja2"></div>
+    <div class="caja caja3"></div>
+    <div class="caja caja4"></div>
+    <div class="caja caja5"></div>
+  </body>
+</html>
