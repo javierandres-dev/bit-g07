@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tamaño caja</title>
+    <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+      }
+      .contenedor {
+        background-color: blue;
+        width: 100px;
+        height: 100px;
+      }
+      .contenedor div {
+        border: 2px solid red;
+        background-color: red;
+        width: 100px;
+        height: 100px;
+        padding: 2px;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contenedor">
+      <div></div>
+    </div>
+  </body>
+</html>
