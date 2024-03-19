@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animaciones</title>
+    <style>
+      .contenedor {
+        background-color: yellow;
+      }
+      .contenedor div {
+        background-color: green;
+        width: 300px;
+        height: 300px;
+      }
+      .movimiento:hover {
+        animation: rotar 4s;
+      }
+      @keyframes rotar {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      @keyframes escalar {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.5);
+        }
+      }
+      @keyframes deslizarX {
+        0% {
+          transform: translateX(-50%);
+        }
+        50% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(50%);
+        }
+      }
+      @keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 0.5;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+      @keyframes deslizarY {
+        0% {
+          transform: translateY(0);
+        }
+        40% {
+          transform: translateY(-100px);
+        }
+        60% {
+          transform: translateY(-10px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="movimiento"></div>
+    </div>
+  </body>
+</html>

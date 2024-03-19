@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo</title>
+    <style>
+      p::first-line {
+        color: blue;
+        font-size: 24px;
+      }
+      p::first-letter {
+        color: red;
+        font-size: 32px;
+      }
+      a {
+        color: green;
+      }
+      a:hover {
+        color: orange;
+      }
+      a:active {
+        color: purple;
+      }
+      div:hover {
+        color: orange;
+      }
+      .mi-clase:hover {
+        color: orangered;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Pseudo</h1>
+    <h2>Pseudo elementos</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi natus
+      doloribus fugiat, aliquam consequuntur dolorem nulla architecto deleniti
+      voluptatibus, esse harum eos. Veniam recusandae, aut ipsa voluptas
+      accusamus ratione temporibus!
+    </p>
+    <h2>Pseudo clases</h2>
+    <nav>
+      <a href="http://bit.institute" target="_blank" rel="noopener noreferrer"
+        >Ir a BIT</a
+      >
+    </nav>
+    <div>contenido</div>
+    <span class="mi-clase">contenido del span</span>
+  </body>
+</html>
