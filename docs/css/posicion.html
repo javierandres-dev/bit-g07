@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Posición</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      .contenedor {
+        width: 300px;
+        height: 300px;
+      }
+      .contenedor1 {
+        background-color: red;
+        position: relative;
+        /* top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 0; */
+      }
+      .contenedor2 {
+        background-color: blue;
+        position: relative;
+      }
+      .contenedor1 div {
+        width: 150px;
+        height: 150px;
+        background-color: green;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+      .caja {
+        width: 200px;
+        height: 200px;
+      }
+      .uno {
+        background-color: purple;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+      }
+      .dos {
+        background-color: orange;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contenedor contenedor1">
+      <div></div>
+    </div>
+    <div class="contenedor contenedor2">
+      <div class="caja uno"></div>
+      <div class="caja dos"></div>
+    </div>
+  </body>
+</html>
