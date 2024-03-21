@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid</title>
+    <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+      }
+      .contenedor {
+        width: 400px;
+        height: 400px;
+        background-color: green;
+        display: grid; /* bloque */
+        /* display: inline-grid; /* en línea */
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        gap: 10px;
+      }
+      .elemento {
+        background-color: yellow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        background-color: yellow;
+        width: 400px;
+        height: 400px;
+        display: grid;
+        gap: 10px;
+        grid-template-rows: repeat(3, 100px);
+        grid-template-columns: repeat(3, 100px);
+        justify-content: center;
+        align-content: center;
+      }
+      .item {
+        background-color: green;
+        color: white;
+      }
+      .padre {
+        background-color: yellow;
+        width: 400px;
+        height: 400px;
+        display: grid;
+        gap: 10px;
+        grid-template-rows: 50px auto 50px;
+        grid-template-columns: 100px 50px 100px;
+        justify-items: center;
+        align-items: center;
+      }
+      .hijo {
+        background-color: green;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="elemento">1</div>
+      <div class="elemento">2</div>
+      <div class="elemento">3</div>
+      <div class="elemento">4</div>
+      <div class="elemento">5</div>
+      <div class="elemento">6</div>
+      <div class="elemento">7</div>
+      <div class="elemento">8</div>
+      <div class="elemento">9</div>
+    </div>
+    <hr />
+    <div class="container">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+      <div class="item">7</div>
+      <div class="item">8</div>
+      <div class="item">9</div>
+    </div>
+    <hr />
+    <div class="padre">
+      <div class="hijo">1</div>
+      <div class="hijo">2</div>
+      <div class="hijo">3</div>
+      <div class="hijo">4</div>
+      <div class="hijo">5</div>
+      <div class="hijo">6</div>
+      <div class="hijo">7</div>
+      <div class="hijo">8</div>
+      <div class="hijo">9</div>
+    </div>
+    <br /><br />
+  </body>
+</html>

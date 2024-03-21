@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox</title>
+    <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+      }
+      .contenedor {
+        width: 400px;
+        height: 400px;
+        background-color: green;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+      }
+      .elemento {
+        width: 50px;
+        height: 50px;
+        background-color: yellow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="elemento">1</div>
+      <div class="elemento">2</div>
+      <div class="elemento">3</div>
+      <div class="elemento">4</div>
+      <div class="elemento">5</div>
+      <div class="elemento">6</div>
+      <div class="elemento">7</div>
+      <div class="elemento">8</div>
+      <div class="elemento">9</div>
+    </div>
+  </body>
+</html>
