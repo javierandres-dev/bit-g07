@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+div {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  /* border: 10px solid red;
+  border-top-color: blue; */
+  animation: rotar 4000ms linear infinite;
+}
+@keyframes rotar {
+  to {
+    transform: rotate(360deg);
+  }
+}
+div::before,
+div::after {
+  content: '';
+  position: absolute;
+  border-radius: inherit;
+}
+div::before {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(0deg, rgb(252, 231, 4) 0%, #80f 100%);
+}
+div::after {
+  width: 80%;
+  height: 80%;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
