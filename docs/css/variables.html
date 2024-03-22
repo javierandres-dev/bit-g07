@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Variables</title>
+    <style>
+      :root {
+        --color-principal: blue;
+        --color-secundario: green;
+        --fuente-principal: 'Arial';
+      }
+      body {
+        font-family: var(--fuente-principal);
+      }
+      p {
+        color: var(--color-principal);
+      }
+      ul {
+        color: var(--color-secundario);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Propiedades personalizadas</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum delectus
+      porro possimus dolorem quae quia debitis hic necessitatibus vitae
+      recusandae. Cumque cum similique qui quibusdam magni architecto eaque
+      unde? Exercitationem.
+    </p>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+  </body>
+</html>

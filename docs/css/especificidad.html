@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Especificidad</title>
+  </head>
+  <style>
+    #texto-azul {
+      color: blue;
+    }
+    .texto-rojo {
+      color: red;
+    }
+    p {
+      color: green !important;
+    }
+  </style>
+  <body>
+    <h1>Especificidad</h1>
+    <p id="texto-azul" class="texto-rojo" style="color: orange">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum eum
+      dolorem, quia temporibus consequatur asperiores? Beatae aspernatur quis
+      consequatur natus saepe. Quasi aspernatur veritatis, temporibus quam sit
+      non exercitationem magni?
+    </p>
+  </body>
+</html>
