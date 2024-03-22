@@ -10,6 +10,7 @@ Hacer un proyecto web en HTML y CSS plano.
 - Mostrar por lo menos 1 icono
 - Tener por lo menos 1 enlace externo (GitHub)
 - Responsivo
+- Tener publicado el proyecto con GitHub Pages
 ### Entrega
 - Fecha de entrega: Viernes, 22 de marzo de 2024, si entrega en otra fecha la nota máxima posible será de 3.5
 * Debe exponer su proyecto
